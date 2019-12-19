@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
 
-export default function App() {
+export default function Header() {
   return(
     <div>
 			<Navbar bg="dark" variant="dark">
