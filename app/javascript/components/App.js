@@ -1,16 +1,16 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Container from 'react-bootstrap/Container'
-import Navbar from 'react-bootstrap/Navbar'
+import Header from './Header'
+import Body from './Body'
 
 export default function App() {
   return(
     <div>
-			<Navbar bg="dark" variant="dark">
-      	<Container>
-					<Navbar.Brand>Material Finder</Navbar.Brand>
-      	</Container>
-			</Navbar>
+			<Header/>
+      <Container>
+			  <Body />
+      </Container>
     </div>
   )
 }
